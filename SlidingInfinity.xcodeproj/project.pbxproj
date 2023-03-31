@@ -11,6 +11,8 @@
 		ACF9FB8729D6F726000E3C77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF9FB8629D6F726000E3C77 /* ContentView.swift */; };
 		ACF9FB8929D6F727000E3C77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF9FB8829D6F727000E3C77 /* Assets.xcassets */; };
 		ACF9FB8C29D6F727000E3C77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF9FB8B29D6F727000E3C77 /* Preview Assets.xcassets */; };
+		ACF9FB9329D6F80D000E3C77 /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF9FB9229D6F80D000E3C77 /* PageModel.swift */; };
+		ACF9FB9529D6F83C000E3C77 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF9FB9429D6F83C000E3C77 /* PageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		ACF9FB8629D6F726000E3C77 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ACF9FB8829D6F727000E3C77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACF9FB8B29D6F727000E3C77 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ACF9FB9229D6F80D000E3C77 /* PageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageModel.swift; sourceTree = "<group>"; };
+		ACF9FB9429D6F83C000E3C77 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				ACF9FB8429D6F726000E3C77 /* SlidingInfinityApp.swift */,
+				ACF9FB9229D6F80D000E3C77 /* PageModel.swift */,
+				ACF9FB9429D6F83C000E3C77 /* PageView.swift */,
 				ACF9FB8629D6F726000E3C77 /* ContentView.swift */,
 				ACF9FB8829D6F727000E3C77 /* Assets.xcassets */,
 				ACF9FB8A29D6F727000E3C77 /* Preview Content */,
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACF9FB8729D6F726000E3C77 /* ContentView.swift in Sources */,
+				ACF9FB9529D6F83C000E3C77 /* PageView.swift in Sources */,
+				ACF9FB9329D6F80D000E3C77 /* PageModel.swift in Sources */,
 				ACF9FB8529D6F726000E3C77 /* SlidingInfinityApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
